@@ -45,4 +45,4 @@ class IrisBotMod(loader.Module):
 				
 	async def linkcmd(self, message):
 		"""Если у вас не работают команды,используйте данную команду, чтобы заново установить модуль."""
-		await message.edit("<code>.dlmod link</code>\n\n<b>")
+		await message.edit("<code>.dlmod https://raw.githubusercontent.com/Meyronn/Modules-FTG/main/IrisBot.py</code>\n\n<b>")
