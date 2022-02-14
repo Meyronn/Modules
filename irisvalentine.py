@@ -11,7 +11,7 @@ class IrisBotMod(loader.Module):
 	async def farmcmd(self, message):
 		"""Включает команду "скрафтить валентинки". Чтобы остановить, используйте "стоп валентинки"."""
 		while self.farm:
-			await message.reply("валентинка\n\n<b>Следующая команда будет произведена через 4 часа.\n\n</b>")
+			await message.reply("скрафтить валентинки\n\n<b>Следующая команда будет произведена через 4 часа.\n\n</b>")
 			await sleep(14500)
 				
 	async def linkcmd(self, message):
